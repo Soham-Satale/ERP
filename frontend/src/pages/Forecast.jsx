@@ -6,7 +6,7 @@ import {
   ResponsiveContainer, ReferenceLine, Legend
 } from "recharts";
 
-const API = "http://localhost:5000/api";
+import API from "../api";
 
 export default function Forecast() {
   const token = JSON.parse(localStorage.getItem("user"))?.token;

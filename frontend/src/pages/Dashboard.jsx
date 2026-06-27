@@ -3,7 +3,7 @@ import axios from "axios";
 import Layout from "../components/Layout";
 import { useAuth } from "../context/AuthContext";
 
-const API = "http://localhost:5000/api";
+import API from "../api";
 
 export default function Dashboard() {
   const { user } = useAuth();

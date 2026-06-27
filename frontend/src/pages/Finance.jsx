@@ -5,7 +5,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend
 } from "recharts";
 
-const API = "http://localhost:5000/api";
+import API from "../api";
 
 export default function Finance() {
   const token = JSON.parse(localStorage.getItem("user"))?.token;
