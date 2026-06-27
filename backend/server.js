@@ -8,7 +8,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: ["https://atlas-erp.vercel.app", "http://localhost:5173"],
+  origin: ["https://erp-gamma-teal.vercel.app", "http://localhost:5173"],
   credentials: true
 }));
 
