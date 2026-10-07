@@ -69,8 +69,8 @@ export default function Register() {
 
           <div className="space-y-3">
             {[
-              { key: "name", label: "Full Name", type: "text", placeholder: "Enter your full name" },
-              { key: "email", label: "Email", type: "email", placeholder: "you@example.com" },
+              { key: "name", label: "Full Name", type: "text", placeholder: "Enter your name" },
+              { key: "email", label: "Email", type: "email", placeholder: "Enter your email" },
               { key: "password", label: "Password", type: "password", placeholder: "••••••••" },
             ].map((field) => (
               <div key={field.key}>
