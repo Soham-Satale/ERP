@@ -74,7 +74,7 @@ export default function Login() {
               </label>
               <input
                 type="email"
-                placeholder="you@example.com"
+                placeholder="enter your email"
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
                 onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
