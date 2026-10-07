@@ -69,7 +69,7 @@ export default function Register() {
 
           <div className="space-y-3">
             {[
-              { key: "name", label: "Full Name", type: "text", placeholder: "Soham Satale" },
+              { key: "name", label: "Full Name", type: "text", placeholder: "Enter your full name" },
               { key: "email", label: "Email", type: "email", placeholder: "you@example.com" },
               { key: "password", label: "Password", type: "password", placeholder: "••••••••" },
             ].map((field) => (
